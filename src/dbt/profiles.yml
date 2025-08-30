@@ -4,7 +4,7 @@ default:
     dev:
       account: VWVMGOA-KB83085
       database: DBT_DEV_DB
-      password: Yuki*de8000s2222
+      password: Yuki*de8000s222
       role: ACCOUNTADMIN
       schema: JM
       threads: 1
@@ -12,4 +12,4 @@ default:
       user: DBT_USER
       warehouse: DBT_WH
       target: dev
-  
+   
