@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: inter_developer
+    description: "Tabela transformada de desenvolvedores"
+    columns:
+      - name: id
+        description: "Identificador único do desenvolvedor"
+        tests:
+          - unique
+          - not_null
+
+      - name: nome
+        description: "Nome do desenvolvedor"
+        tests:
+          - not_null
+
+      - name: empresa
+        description: "Nome da empresa onde o desenvolvedor trabalha"
+        tests:
+          - not_null
+
+      - name: cargo
+        description: "Cargo do desenvolvedor na empresa"
+        tests:
+          - not_null
+
+      - name: descricao
+        description: "Descrição do desenvolvedor"
+        tests:
+          - not_null
