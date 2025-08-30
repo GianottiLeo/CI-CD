@@ -1,15 +1,15 @@
-#profiles.yml
+#profiles.yml RU74492.AZURE_WESTUS2
 default:
   outputs:
     dev:
-      account: RU74492.AZURE_WESTUS2
+      account: VWVMGOA-KB83085
       database: DBT_DEV_DB
-      password: dbtuser
-      role: DBT_ROLE
+      password: Yuki*de8000s2222
+      role: ACCOUNTADMIN
       schema: JM
       threads: 1
       type: snowflake
       user: DBT_USER
       warehouse: DBT_WH
-  target: dev
+      target: dev
   
