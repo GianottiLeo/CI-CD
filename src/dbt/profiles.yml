@@ -2,7 +2,7 @@
 default:
   outputs:
     dev:
-      account: your-account #change for your account
+      account: RU74492.AZURE_WESTUS2
       database: DBT_DEV_DB
       password: dbtuser
       role: DBT_ROLE
