@@ -6,10 +6,10 @@ profile: 'default'
 models:
   snowflake_airflow_dbt:
       intermediate:
-          schema: intermediate
-          materialized: view
-          enabled: true
+          +schema: intermediate
+          +materialized: view
+          +enabled: true
       mart:
-          schema: mart
-          materialized: view
-          enabled: true
+          +schema: mart
+          +materialized: view
+          +enabled: true
