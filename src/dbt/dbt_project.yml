@@ -1,0 +1,15 @@
+name: 'snowflake_airflow_dbt'
+version: 0.21
+config-version: 2
+profile: 'default'
+
+models:
+  snowflake_airflow_dbt:
+      intermediate:
+          schema: intermediate
+          materialized: view
+          enabled: true
+      mart:
+          schema: mart
+          materialized: view
+          enabled: true
