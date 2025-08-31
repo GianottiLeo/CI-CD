@@ -1,15 +1,1 @@
 #profiles.yml RU74492.AZURE_WESTUS2
-default:
-  outputs:
-    dev:
-      account: RU74492.us-west-2
-      database: DBT_DEV_DB
-      password: Yuki*de8000s222
-      role: ACCOUNTADMIN
-      schema: JM
-      threads: 1
-      type: snowflake
-      user: DBT_USER
-      warehouse: DBT_WH
-      target: dev
-   
