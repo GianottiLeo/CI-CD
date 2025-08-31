@@ -2,7 +2,7 @@
 default:
   outputs:
     dev:
-      account: RU74492.AZURE_WESTUS2
+      account: RU74492.us-west-2
       database: DBT_DEV_DB
       password: Yuki*de8000s222
       role: ACCOUNTADMIN
