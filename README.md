@@ -1,5 +1,7 @@
 # CI/CD for dbt on Snowflake
 
+* Even though this is a working repo, it might stop working after my Snowflake free trial expires.
+
 A GitHub Actions pipeline that validates dbt changes in a **dev** Snowflake environment on every pull request and deploys them to **prod** on merge to `main`. Credentials come from GitHub Secrets, and the dbt profile is generated at runtime, so no secrets live in the repo.
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
