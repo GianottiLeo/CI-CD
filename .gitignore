@@ -1,0 +1,10 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+profiles.yml
+
+# Python
+__pycache__/
+.venv/
